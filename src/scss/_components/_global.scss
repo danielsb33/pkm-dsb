@@ -1,0 +1,132 @@
+// General
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../images/pk-bg.jpg");
+  background-position: center;
+  background-size: 200px;
+  font-family: $font-b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $font-h;
+}
+
+.root {
+  background: none;
+}
+.App {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  min-height: 100vh;
+  height: auto;
+  padding: 20px;
+
+  h1 {
+    margin-bottom: 2.5em;
+    text-align: center;
+    .logo {
+      max-width: 350px;
+    }
+  }
+}
+
+/* colors types */
+.bug {
+  background-color: $bug;
+  box-shadow: 0 0 20px $bug;
+}
+
+.dark {
+  background-color: $dark;
+  box-shadow: 0 0 20px $dark;
+}
+
+.dragon {
+  background-color: $dragon;
+  box-shadow: 0 0 20px $dragon;
+}
+
+.electric {
+  background-color: $electric;
+  box-shadow: 0 0 20px $electric;
+}
+
+.fire {
+  background-color: $fire;
+  box-shadow: 0 0 20px $fire;
+}
+
+.fairy {
+  background-color: $fairy;
+  box-shadow: 0 0 20px $fairy;
+}
+
+.fighting {
+  background-color: $fighting;
+  box-shadow: 0 0 20px $fighting;
+}
+
+.flying {
+  background-color: $flying;
+  box-shadow: 0 0 20px $flying;
+}
+
+.ghost {
+  background-color: $ghost;
+  box-shadow: 0 0 20px $ghost;
+}
+
+.grass {
+  background-color: $grass;
+  box-shadow: 0 0 20px $grass;
+}
+
+.ground {
+  background-color: $ground;
+  box-shadow: 0 0 20px $ground;
+}
+
+.ice {
+  background-color: $ice;
+  box-shadow: 0 0 20px $ice;
+}
+
+.normal {
+  background-color: $normal;
+  box-shadow: 0 0 20px $normal;
+}
+
+.poison {
+  background-color: $poison;
+  box-shadow: 0 0 20px $poison;
+}
+
+.psychic {
+  background-color: $psychic;
+  box-shadow: 0 0 20px $psychic;
+}
+
+.rock {
+  background-color: $rock;
+  box-shadow: 0 0 20px $rock;
+}
+
+.steel {
+  background-color: $steel;
+  box-shadow: 0 0 20px $steel;
+}
+
+.water {
+  background-color: $water;
+  box-shadow: 0 0 20px $water;
+}
+
+/* colors types ends */

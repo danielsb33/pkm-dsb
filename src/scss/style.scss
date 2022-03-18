@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*globales*/
+
+@import "_variables/variables";
+@import "_variables/mixin";
+@import "_variables/layaout";
+
+/*componentes*/
+@import "_components/global";
+@import "_components/_navbar";
+@import "_components/_modal";
+@import "_components/_card";

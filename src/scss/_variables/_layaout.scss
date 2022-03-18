@@ -1,0 +1,35 @@
+@media only screen and (min-width: 600px) {
+  .page_nav button {
+    width: 20% !important;
+    padding: 6px 6px;
+  }
+  .App main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+  }
+
+  .modal main {
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    grid-template-areas:
+      "photo photo info1"
+      "info2 info2 info2";
+  }
+
+  .modal figure {
+    grid-area: photo;
+  }
+
+  .modal section {
+    grid-area: info1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0 0 0 60px;
+  }
+
+  .modal p {
+    grid-area: info2;
+  }
+}

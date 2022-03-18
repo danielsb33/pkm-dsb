@@ -1,0 +1,18 @@
+.PagesBtns {
+    text-align: center;
+    margin: 15px 0;
+    position: sticky;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    button {
+      padding: 2px 19px;
+      font-size: $cuerpo-m;
+      margin: 10px;
+      border: none;
+      box-shadow: #00000063 0 2px 8px 2px;
+      @include border-radius(5px);
+
+      
+    }
+  }

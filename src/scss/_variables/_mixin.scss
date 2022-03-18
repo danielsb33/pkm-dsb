@@ -1,0 +1,46 @@
+/*Border radius*/
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+}
+
+// Imagenes types
+
+@mixin TypeImg($type-name) {
+  @each $type-name in $type-name {
+    // Iconos
+    .card-types p span.#{$type-name}:before {
+      background-image: url("../../images/icons/#{$type-name}.svg");
+    }
+
+    // Img fondo
+    .card.#{$type-name} img {
+      background-image: url("../../images/textures/Type_Background_#{$type-name}.png");
+    }
+  }
+}
+
+@include TypeImg(
+  (
+    "bug",
+    "dark",
+    "dragon",
+    "electric",
+    "fire",
+    "fairy",
+    "fighting",
+    "flying",
+    "ghost",
+    "grass",
+    "ground",
+    "ice",
+    "normal",
+    "poison",
+    "psychic",
+    "rock",
+    "steel",
+    "water"
+  )
+);
