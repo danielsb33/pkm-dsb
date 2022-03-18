@@ -9,26 +9,28 @@
     grid-gap: 50px;
   }
 
-  .modal main {
-    display: grid;
-    grid-template-areas:
-      "photo photo info1"
-      "info2 info2 info2";
-  }
+  .modal {
+    main {
+      display: grid;
+      grid-template-areas:
+        "photo photo info1"
+        "info2 info2 info2";
+    }
 
-  .modal figure {
-    grid-area: photo;
-  }
+    figure {
+      grid-area: photo;
+    }
 
-  .modal section {
-    grid-area: info1;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    padding: 0 0 0 60px;
-  }
+    section {
+      grid-area: info1;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      padding: 0 0 0 60px;
+    }
 
-  .modal p {
-    grid-area: info2;
+    p {
+      grid-area: info2;
+    }
   }
 }
