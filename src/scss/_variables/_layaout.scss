@@ -11,7 +11,6 @@
 
   .modal main {
     display: grid;
-    grid-template-rows: 1fr 0.5fr;
     grid-template-areas:
       "photo photo info1"
       "info2 info2 info2";
